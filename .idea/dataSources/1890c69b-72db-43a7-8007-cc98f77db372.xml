@@ -1,0 +1,59 @@
+<dataSource name="MySQL - test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="hosp1" />
+    <schema id="3" name="hosp2" />
+    <schema id="4" name="hosp3" />
+    <schema id="5" name="hosp4" />
+    <schema id="6" name="information_schema" />
+    <schema id="7" name="mysql" />
+    <schema id="8" name="performance_schema" />
+    <schema id="9" name="sakila" />
+    <schema id="10" name="sys" />
+    <schema id="11" name="world" />
+    <table id="12" parent="1" name="patient" />
+    <column id="13" parent="12" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="14" parent="12" name="age">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="15" parent="12" name="city">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="16" parent="12" name="email">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="17" parent="12" name="mobile">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="18" parent="12" name="name">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="19" parent="12" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="20" parent="12" name="status">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="21" parent="12" name="street">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="22" parent="12" name="username">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="23" parent="12" name="zipcode">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="24" parent="12" name="PRIMARY">
+      <columns>user_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

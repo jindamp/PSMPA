@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PSMPA:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PSMPA-1.war">
+      <element id="artifact" artifact-name="PSMPA:war exploded" />
+    </root>
+  </artifact>
+</component>
